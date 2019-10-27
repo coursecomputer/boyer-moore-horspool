@@ -1,15 +1,13 @@
 package bmh
 
 type Table struct {
-	Content []int
+	Content [256]int
 }
 
 // We initialize the table with the length of the pattern
 // When we find an unknown character in the pattern, the number will be the length of the pattern
 // num = the length of the pattern
 func (t *Table) initContent(num int) {
-	t.Content = make([]int, 256)
-
 	for i := 0; i < 256; i++ {
 		t.Content[i] = num
 	}
