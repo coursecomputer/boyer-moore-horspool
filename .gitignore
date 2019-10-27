@@ -10,3 +10,9 @@
 
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
+
+# jetbrain
+.idea
+
+# mac
+.DS_Store
