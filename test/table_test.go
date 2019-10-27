@@ -8,9 +8,7 @@ import (
 )
 
 // Additional function
-func initContent(num int) (content []int) {
-	content = make([]int, 256)
-
+func initContent(num int) (content [256]int) {
 	for i := 0; i < 256; i++ {
 		content[i] = num
 	}
@@ -25,7 +23,7 @@ var _ = Describe("Table", func() {
 	Context("Success", func() {
 		It("with \"tuvzzzzzzzx\" as argument", func() {
 			// Prepare
-			var content []int
+			var content [256]int
 			var pattern = []byte("tuvzzzzzzzx")
 
 			content = initContent(len(pattern))
