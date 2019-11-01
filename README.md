@@ -8,7 +8,7 @@ Implementation of the Boyer-Moore-Horspool algorithm or Horspool's algorithm in 
 ## Usage
 CLI:
 ```bash
-    go test -v test/
+go test -v test/
 ```
 
 CODE:
@@ -29,4 +29,5 @@ index = bmh.Search(buffer, pattern1) // -1
  - [English Explications](doc/EN-EXPLICATION.md)
 
 ## Links
-  
+https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore%E2%80%93Horspool_algorithm
+http://www.mathcs.emory.edu/~cheung/Courses/323/Syllabus/Text/Matching-Boyer-Moore2.html
