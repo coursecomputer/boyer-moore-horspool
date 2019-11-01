@@ -39,5 +39,25 @@ var _ = Describe("Table", func() {
 			// Expect
 			Expect(table.Content).To(Equal(content))
 		})
+
+		It("with \"tuvzxzzzzzx\" as argument", func() {
+			// Prepare
+			var content [256]int
+			var pattern = []byte("tuvzxzzzzzx")
+
+			content = initContent(len(pattern))
+
+			content[int('t')] = 10
+			content[int('u')] = 9
+			content[int('v')] = 8
+			content[int('x')] = 6
+			content[int('z')] = 1
+
+			// Process
+			table.Build(pattern)
+
+			// Expect
+			Expect(table.Content).To(Equal(content))
+		})
 	})
 })
