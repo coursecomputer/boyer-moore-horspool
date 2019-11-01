@@ -10,7 +10,7 @@ func Search(buffer, pattern []byte) (position int) {
 	position = -1
 	table.Build(pattern)
 	for (idxBuffer + lenPattern) <= lenBuffer {
-		idxPattern = lenPattern  -1
+		idxPattern = lenPattern - 1
 
 		for buffer[idxBuffer + idxPattern] == pattern[idxPattern] {
 			if idxPattern == 0 {
@@ -20,7 +20,7 @@ func Search(buffer, pattern []byte) (position int) {
 			idxPattern -= 1
 		}
 
-		idxBuffer += table.Content[buffer[idxBuffer + (lenPattern - 1)]]
+		idxBuffer += table.Content[buffer[idxBuffer + idxPattern]]
 	}
 
 	return position
