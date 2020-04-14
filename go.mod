@@ -1,4 +1,4 @@
-module github.com/AlgoCafe/boyer-moore-horspool
+module github.com/coursecomputer/boyer-moore-horspool
 
 go 1.13
 

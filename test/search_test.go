@@ -4,7 +4,7 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/AlgoCafe/boyer-moore-horspool/bmh"
+	"github.com/coursecomputer/boyer-moore-horspool/bmh"
 )
 
 var _ = Describe("Search", func() {

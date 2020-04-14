@@ -13,7 +13,7 @@ go test -v test/
 
 CODE:
 ```go
-import "github.com/AlgoCafe/boyer-moore-horspool/bmh"
+import "github.com/coursecomputer/boyer-moore-horspool/bmh"
 
 var index, length int
 var buffer = []byte("abc abcdab abcdabcdabde")
@@ -24,9 +24,9 @@ index = bmh.Search(buffer, pattern) // 15
 index = bmh.Search(buffer, pattern1) // -1
 ```
 
-## BMH Explications
- - [Explications en francais](doc/FR-EXPLICATION.md)
- - [English Explications](doc/EN-EXPLICATION.md)
+## Explications
+ - [English](documentation/EN-EXPLICATION.md)
+ - [Français](documentation/FR-EXPLICATION.md)
 
 ## Links
 https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore%E2%80%93Horspool_algorithm  
