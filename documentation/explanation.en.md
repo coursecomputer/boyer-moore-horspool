@@ -1,5 +1,5 @@
 
-## Explication
+## Explanation
 [The Boyer-Moore-Horspool algorithm](https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore%E2%80%93Horspool_algorithm) is a [String-searching algorithm](https://en.wikipedia.org/wiki/String-searching_algorithm).
 
 It does a pre-processing on the substring by creating a table with the jumps to do to avoid unnecessary research.
