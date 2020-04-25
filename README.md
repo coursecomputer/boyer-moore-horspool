@@ -1,12 +1,12 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # boyer-moore-horspool
-[EN]  
+<strong>[EN]</strong>  
 Implementation of the Boyer-Moore-Horspool algorithm or Horspool's algorithm.
 
 Boyer-Moore-Horspool is a substring search algorithm.
 
-[FR]  
+<strong>[FR]</strong>  
 Implémentation de l'algorithme de Boyer-Moore-Horspool.
 
 Boyer-Moore-Horspool est un algorithme de recherche de sous-chaîne.
@@ -22,7 +22,7 @@ Boyer-Moore-Horspool est un algorithme de recherche de sous-chaîne.
 ## Usage
 CLI:
 ```bash
-go test -v test/
+go test -v ./test
 ```
 
 CODE:
