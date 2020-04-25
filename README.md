@@ -1,5 +1,19 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 # boyer-moore-horspool
-Implementation of the Boyer-Moore-Horspool algorithm or Horspool's algorithm in GO
+[EN]  
+Implementation of the Boyer-Moore-Horspool algorithm or Horspool's algorithm.
+
+Boyer-Moore-Horspool is a substring search algorithm.
+
+[FR]  
+Implémentation de l'algorithme de Boyer-Moore-Horspool.
+
+Boyer-Moore-Horspool est un algorithme de recherche de sous-chaîne.
+
+## Explanation
+ - [English](documentation/explanation.en.md)
+ - [Français](documentation/explanation.fr.md)
 
 ## Technology
 * [go](https://golang.org/)
@@ -23,10 +37,6 @@ var pattern1 = []byte("abcdabdr") // 8
 index = bmh.Search(buffer, pattern) // 15
 index = bmh.Search(buffer, pattern1) // -1
 ```
-
-## Explications
- - [English](documentation/EN-EXPLICATION.md)
- - [Français](documentation/FR-EXPLICATION.md)
 
 ## Links
 https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore%E2%80%93Horspool_algorithm  
