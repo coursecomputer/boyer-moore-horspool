@@ -1,4 +1,4 @@
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 # boyer-moore-horspool
 <strong>[EN]</strong>  
@@ -27,7 +27,7 @@ go test -v ./test
 
 CODE:
 ```go
-import "github.com/coursecomputer/boyer-moore-horspool/bmh"
+import "github.com/coursecomputer/boyer-moore-horspool/source"
 
 var index, length int
 var buffer = []byte("abc abcdab abcdabcdabde")

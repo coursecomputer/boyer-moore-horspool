@@ -8,7 +8,7 @@ Il fait un prétraitement sur la sous-chaîne en créant un tableau avec les sau
 
 L'algorithme se découpe en 2 parties, une phase de construction du tableau de saut et une phase de recherche.
 
-### Construction de la Table [[Code table](../bmh/table.go)]
+### Construction de la Table [[Code table](../source/table.go)]
 
 Pour la construction de la table, il suffit de compter le décalage à faire à partir de la fin de la sous-chaîne.
 
@@ -45,7 +45,7 @@ Et on utilise la valeur ASCII du caractère comme index du tableau. (ex: `'A'` v
 
 ![alt tag](assets/image1.gif)
 
-### Recherche de la sous-chaîne [[Code recherche](../bmh/search.go)]
+### Recherche de la sous-chaîne [[Code recherche](../source/search.go)]
 
 Pour la recherche, on compare en commençant par la fin de la sous-chaîne.
 

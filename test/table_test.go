@@ -4,7 +4,7 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/coursecomputer/boyer-moore-horspool/bmh"
+	bmh "github.com/coursecomputer/boyer-moore-horspool/source"
 )
 
 // Additional function

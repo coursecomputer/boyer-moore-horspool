@@ -6,7 +6,7 @@ It does a pre-processing on the substring by creating a table with the jumps to 
 
 The algorithm is divided into 2 parts, a phase of construction of the jump table and a research phase.
 
-### Building of the jump table [[Table Code](../bmh/table.go)]
+### Building of the jump table [[Table Code](../source/table.go)]
 
 For the construction of the table, it is sufficient to count the offset to be made from the end of the substring.
 
@@ -20,7 +20,7 @@ ex: `tuvzxzzzzzx` => `t=10, u=9, v=8, x=6, z=1, other=11` (This example is diffe
 
 ![alt tag](assets/image1.gif)
 
-### Search for the substring [[Search Code](../bmh/search.go)]
+### Search for the substring [[Search Code](../source/search.go)]
 
 For research, we compare starting at the end of the substring.
 
